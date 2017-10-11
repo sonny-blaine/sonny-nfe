@@ -1,0 +1,10 @@
+easy_admin:
+    site_name: 'Sonny NF-e'
+    entities:
+        Certificate:
+            class: App\Entity\Certificate
+            form:
+                fields:
+                    - { property: 'startAt', type: 'date'}
+                    - { property: 'endAt', type: 'date'}
+                    - { property: 'file', type: 'file' }
