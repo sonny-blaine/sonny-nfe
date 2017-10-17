@@ -11,7 +11,7 @@ use DateTime;
  * @ORM\Table()
  * @Vich\Uploadable()
  */
-class Certificate
+class Certificado
 {
 
     /**
